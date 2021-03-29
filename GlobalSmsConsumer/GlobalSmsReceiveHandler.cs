@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using SMSGlobal.api;
 using TGS.SmsReceiver;
+using TGS.Consumers.GlobalSms;
 
 namespace GlobalSmsConsumer
 {

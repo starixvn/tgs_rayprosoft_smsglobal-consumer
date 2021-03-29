@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GlobalSmsConsumer": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

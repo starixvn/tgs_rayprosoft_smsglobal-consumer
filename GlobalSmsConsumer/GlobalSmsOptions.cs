@@ -1,4 +1,4 @@
-﻿namespace GlobalSmsConsumer
+﻿namespace TGS.Consumers.GlobalSms
 {
 	public class GlobalSmsOptions
 	{

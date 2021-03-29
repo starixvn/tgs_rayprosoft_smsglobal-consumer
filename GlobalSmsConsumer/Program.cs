@@ -1,11 +1,12 @@
 ﻿using System;
+using GlobalSmsConsumer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using SMSGlobal.api;
 
-namespace GlobalSmsConsumer
+namespace TGS.Consumers.GlobalSms
 {
 	class Program
 	{
