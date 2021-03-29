@@ -8,6 +8,7 @@ ARG BuildConfiguration=Release
 RUN --mount=type=secret,id=nuget,dst=/pat cp /pat ~/.nuget/NuGet/NuGet.Config
 RUN dotnet nuget remove source 'Microsoft Visual Studio Offline Packages' || true
 WORKDIR /src
+COPY ["nuget.config", "."]
 COPY ["GlobalSmsConsumer/GlobalSmsConsumer.csproj", "GlobalSmsConsumer/"]
 RUN dotnet restore "GlobalSmsConsumer/GlobalSmsConsumer.csproj"
 COPY . .
